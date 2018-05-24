@@ -49,5 +49,7 @@ Al cifrar los mensajes se resuelve el problema de mantener como sorpresa la fies
 
 ## Funcionalidad
 
+Al abrir la página sale un mensaje de si quieres cifrar o descifrar un texto y un botón para continuar a la página de encriptado. 
+
 
 ## Diseño

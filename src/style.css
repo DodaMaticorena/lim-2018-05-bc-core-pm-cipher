@@ -11,13 +11,31 @@ body {
 }
 
 #boton {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    width: 10%; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 13%; 
     border-radius: 100%;
     cursor: pointer;
+    margin-top: 1%;
 }
 
+#mensaje {
+    margin-bottom: 1%;
+}
+
+#textoEntrada {
+    text-align: center;
+}
+
+#desplazamiento {
+    margin-bottom: 0.5%;
+}
+
+#input {
+    text-align: center;
+    margin-bottom: 3%;
+}
 #botonCifrado {
+    text-align: center;
     cursor: pointer;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 90%;
@@ -31,10 +49,19 @@ body {
     width: 10%;
 }
 
+#mensaje2 {
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+#textoSalida {
+    text-align: center
+}
+
 div {
-    color: #8f0505;
+    color: #750505;
     text-align: center;
     font-size: 100%;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    padding-top: 10%;
+    padding-top: 4%;
 }

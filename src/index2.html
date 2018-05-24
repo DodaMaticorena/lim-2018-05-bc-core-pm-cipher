@@ -7,10 +7,15 @@
   </head>
   <body>
     <div>
-      <h3>Escribe tu mensaje aquí</h3>
-      <input type="text" style="width:30%; height:50%", maxlength="200" id="input">
-      <button id="botonCifrado">Cifrar mensaje</button>
-      <button id="botonDescifrado">Descifrar mensaje</button>
+      <h3 id="mensaje">Escribe tu mensaje aquí:</h3>
+      <textarea name="textarea" id="textoEntrada" cols="50" rows="5" required></textarea> <br/>
+      <h3 id="desplazamiento">Ingresa un número de desplazamiento:</h3>
+      <input type="text" id="input" maxlength="5"> <br/>
+      <button id="botonCifrado">Cifrar</button>
+      <button id="botonDescifrado">Descifrar</button> <br/>
+      <h3 id="mensaje2">Este es el resultado de tu mensaje:</h3>
+      <textarea name="textarea2" id="textoSalida" cols="50" rows="5"></textarea>
     </div>
+   <script src="index.js"></script>
   </body>
 </html>
