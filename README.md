@@ -39,7 +39,7 @@ Mi proceso para definir el producto final a nivel de experiencia e interfaz come
 las características del usuario. Los principales usuarios del producto son jóvenes.
 Pensé en los usuarios como personas jóvenes y entusiastas que necesitan un medio para comunicarse y que alguien más no pueda leer lo que se habla en ese medio. 
 
-Al cifrar los mensajes se resuelve el problema de mantener sorpresa la fiesta, en el caso mostrado en el preámbulo. Con este producto ellos podrán comunicarse sin que haya la opción de que el cumpleañero se entere. Así como el ejemplo de la fiesta sorpresa, con esta interfaz se puede resolver muchos problemas de ese tipo.
+Al cifrar los mensajes se resuelve el problema de mantener como sorpresa la fiesta, que es lo que se quiere en el caso mostrado en el preámbulo. Con este producto ellos podrán comunicarse sin que haya la opción de que el cumpleañero se entere. Así como el ejemplo de la fiesta sorpresa, con esta interfaz se puede resolver muchos problemas de ese tipo.
 
 ## Descargar, instalar y ejecutar la aplicación
 
