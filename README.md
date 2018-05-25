@@ -41,15 +41,16 @@ Pensé en los usuarios como personas jóvenes y entusiastas que necesitan un med
 
 Al cifrar los mensajes se resuelve el problema de mantener como sorpresa la fiesta, que es lo que se quiere en el caso mostrado en el preámbulo. Con este producto ellos podrán comunicarse sin que haya la opción de que el cumpleañero se entere. Así como el ejemplo de la fiesta sorpresa, con esta interfaz se puede resolver muchos problemas de ese tipo.
 
-## Descargar, instalar y ejecutar la aplicación
-
 
 ## Introducción a la aplicación
 
+ Para hacer esta aplicación, primero investigué los temas necesarios para empezar a hacer la página. Luego definí el producto de acuerdo a las bases estipuladas en el proyecto. En experiencia de usuario, hice un análisis junto a mi squad sobre las personas que usarían el producto, además de algunas preguntas que hice a amigos. 
+ 
+ Utilicé dos html, el primero para la página incial, que linkea a la página donde se va a cifrar y descifrar el mensaje que el usuario quiera. 
+
+ Después de algunos ajustes en el diseño, continué con JavaScript para realizar las funciones que harían posible desencriptar los mensajes.
+
 
 ## Funcionalidad
-
-Al abrir la página sale un mensaje de si quieres cifrar o descifrar un texto y un botón para continuar a la página de encriptado. 
-
-
-## Diseño
+ 
+Para ver esta aplicación web se ingresa con un link, en el que aparecerá una ventana donde te preguntan si quieres cifrar o descifrar un mensaje y un botón que sale en la parte posterior para poder continuar a la página de encriptación.
