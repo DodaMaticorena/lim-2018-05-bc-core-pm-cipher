@@ -11,25 +11,13 @@ let texto2 = document.getElementById('textoSalida');
 texto.addEventListener('input', ()=> {
       console.log(texto.value)
     }  )
-texto.addEventListener("input", ()=> {
+texto.addEventListener('input', ()=> {
       console.log(numeroDesplazamiento.value)
     } )
 
-
 cifrar.addEventListener("click", ()=> {
-  texto2.innerHTML = encode(texto, numeroDesplazamiento);
+  texto2.value = cifrar.addEventListener("click", window.cipher.encode(numeroDesplazamiento, texto));
 } )
-
-function encode(texto,numeroDesplazamiento) {
-  let textoCifrar = [];
-  const asc1;
-  const asc2;
-  for (let a = 0; a < texto.length; a++){
-    const letras = texto.match([A-Za-z]);
-
-  }
-}
-
 
 const descifrar = document.getElementById('botonDescifrado');
 

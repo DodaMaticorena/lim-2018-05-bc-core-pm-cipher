@@ -1,11 +1,12 @@
-// window.cipher = {
-  // ... 
-// };
-
-function encode(texto,numeroDesplazamiento) {
-  let textoCifrar = []
-  for (let a = 0; a < texto.length; a++){
-    const letras = "ABC"
-  }
+const cifrar = (numeroDesplazamiento, texto) = {
+  
 }
-if (inputWord.match(/[A-Za-Z/])
+
+const descifrar = (numeroDesplazamiento, texto) = {
+
+}
+
+window.cipher {
+  encode: cifrar,
+  decode: descifrar
+}
