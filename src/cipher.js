@@ -1,12 +1,12 @@
-const cifrar = (numeroDesplazamiento, texto) = {
-  
+const cifrar = (numeroDesplazamiento, texto) => {
+  return 'hola';
 }
 
-const descifrar = (numeroDesplazamiento, texto) = {
+const descifrar = (numeroDesplazamiento, texto) => {
 
 }
 
-window.cipher {
+window.cipher = {
   encode: cifrar,
   decode: descifrar
 }
