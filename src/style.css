@@ -2,7 +2,7 @@ body {
     background-color: rgb(208, 231, 231);
 }
 
-#bienvenida {
+#welcome {
     color: rgb(104, 57, 148);
     text-align: center;
     font-size: 150%;
@@ -18,19 +18,19 @@ body {
     margin-top: 1%;
 }
 
-#mensaje {
+#message {
     margin-bottom: 1%;
 }
 
-#textoEntrada {
+#entryText {
     text-align: center;
 }
 
-#desplazamiento {
+#positions {
     margin-bottom: 0.5%;
 }
 
-#numDesplaz {
+#subsNumber {
     text-align: center;
     margin-bottom: 2%;
 }

@@ -1,6 +1,6 @@
-//Funciones y declaramos las variables
-let texto = document.getElementById('textoEntrada');  
-let numeroDesplazamiento = document.getElementById('numDesplaz');
+//Declaramos las variables
+let texto = document.getElementById('entryText');  
+let numeroDesplazamiento = document.getElementById('subsNumber');
 const cifrar = document.getElementById('botonCifrado');
 let texto2 = document.getElementById('textoSalida');
 
@@ -14,7 +14,6 @@ let texto2 = document.getElementById('textoSalida');
 //     } )
 
 cifrar.addEventListener("click", ()=> {
-  debugger
   texto2.value = cipher.encode(numeroDesplazamiento.value, texto.value);
 } )
 
