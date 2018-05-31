@@ -1,8 +1,8 @@
 //Declaramos las variables
-let texto = document.getElementById('entryText');  
-let numeroDesplazamiento = document.getElementById('subsNumber');
-const cifrar = document.getElementById('botonCifrado');
-let texto2 = document.getElementById('textoSalida');
+let text = document.getElementById('entryText');  
+let positionNumb = document.getElementById('subsNumber');
+const encrypt = document.getElementById('butEncrypt');
+let text2 = document.getElementById('exitText');
 
 // if (texto.match([A-Za-Z])
 
@@ -13,13 +13,13 @@ let texto2 = document.getElementById('textoSalida');
 //       console.log(numeroDesplazamiento.value)
 //     } )
 
-cifrar.addEventListener("click", ()=> {
-  texto2.value = cipher.encode(numeroDesplazamiento.value, texto.value);
+encrypt.addEventListener("click", ()=> {
+  text2.value = cipher.encode(positionNumb.value, text.value);
 } )
 
-const descifrar = document.getElementById('botonDescifrado');
+const decrypt = document.getElementById('butDecrypt');
 
-descifrar.addEventListener("click", ()=> {
-  texto2.value = cipher.decode(numeroDesplazamiento.value, texto.value);
+decrypt.addEventListener("click", ()=> {
+  text2.value = cipher.decode(positionNumb.value, text.value);
 })
 

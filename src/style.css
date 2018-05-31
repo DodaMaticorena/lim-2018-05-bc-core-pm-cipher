@@ -35,7 +35,7 @@ body {
     margin-bottom: 2%;
 }
 
-#botonCifrado {
+#butEncrypt {
     text-align: center;
     cursor: pointer;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -43,20 +43,20 @@ body {
     width: 10%;
 }
 
-#botonDescifrado {
+#butDecrypt {
     cursor: pointer;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 90%;
     width: 10%;
 }
 
-#mensaje2 {
+#message2 {
     text-align: center;
     margin-top: 3%;
     margin-bottom: 1%;
 }
 
-#textoSalida {
+#exitText {
     text-align: center
 }
 
