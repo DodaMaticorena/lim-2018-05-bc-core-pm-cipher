@@ -1,6 +1,6 @@
 //Declaramos las variables
-let text = document.getElementById('entryText');  
-let positionNumb = document.getElementById('subsNumber');
+let string = document.getElementById('entryText');  
+let offset = document.getElementById('offset');
 const encrypt = document.getElementById('butEncrypt');
 let text2 = document.getElementById('exitText');
 
@@ -14,12 +14,13 @@ let text2 = document.getElementById('exitText');
 //     } )
 
 encrypt.addEventListener("click", ()=> {
-  text2.value = cipher.encode(positionNumb.value, text.value);
+  text2.value = cipher.encode(offset.value, string.value);
+  text2.innerHTML = 
 } )
 
 const decrypt = document.getElementById('butDecrypt');
 
 decrypt.addEventListener("click", ()=> {
-  text2.value = cipher.decode(positionNumb.value, text.value);
+  text2.value = cipher.decode(offset.value, string.value);
 })
 
