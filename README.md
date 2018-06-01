@@ -31,13 +31,13 @@ Por ejemplo si usáramos un desplazamiento de 3:
 ## Objetivos
 
 El objetivo de esta aplicación web es tener una interfaz que es capaz de cifrar y descifrar 
-mensajes para que el usuario pueda comunicarse sin que otra persona sepa lo que está diciendo.
+mensajes para que el usuario pueda comunicarse con alguien sin que una tercera persona sepa lo que está diciendo.
 
 ## Definición del producto
 
 Mi proceso para definir el producto final a nivel de experiencia e interfaz comenzó con conocer 
 las características del usuario. Los principales usuarios del producto son jóvenes.
-Pensé en los usuarios como personas jóvenes y entusiastas que necesitan un medio para comunicarse y que alguien más no pueda leer lo que se habla en ese medio. 
+Pensé en los usuarios como personas jóvenes y entusiastas que necesitan un medio para comunicarse en caso de que quieran mandar mensajes cifrados para que alguien más no pueda leer lo que se habla en ese medio. 
 
 Al cifrar los mensajes se resuelve el problema de mantener como sorpresa la fiesta, que es lo que se quiere en el caso mostrado en el preámbulo. Con este producto ellos podrán comunicarse sin que haya la opción de que el cumpleañero se entere. Así como el ejemplo de la fiesta sorpresa, con esta interfaz se puede resolver muchos problemas de ese tipo.
 
