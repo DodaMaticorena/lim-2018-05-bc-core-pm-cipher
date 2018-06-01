@@ -15,12 +15,13 @@ let text2 = document.getElementById('exitText');
 
 encrypt.addEventListener("click", ()=> {
   text2.value = cipher.encode(offset.value, string.value);
-  text2.innerHTML = 
+  text2.innerHTML = text2.value;
 } )
 
 const decrypt = document.getElementById('butDecrypt');
 
 decrypt.addEventListener("click", ()=> {
   text2.value = cipher.decode(offset.value, string.value);
+  text2.innerHTML = text2.value;
 })
 
