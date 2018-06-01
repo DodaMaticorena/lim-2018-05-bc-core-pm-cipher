@@ -17,13 +17,13 @@ const cod = (offset, string) => {
 
 const decod = (offset, string) => {
    let exit = '';
-   let firstAsci;
-   let formula;
-   let lastAsci;
+   let firstAsci = 0;
+   let formula = 0;
+   let lastAsci = '';
 
    for (a = 0; a < string.length; a++){
     firstAsci = string.charCodeAt(a);
-    formula = (firstAsci - 65 + offset) % 26 - 65;
+    formula = (firstAsci - 65 - offset) % 26 + 65;
     exit = exit.concat(String.fromCharCode(formula));
    }
    return exit
