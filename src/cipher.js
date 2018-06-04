@@ -11,8 +11,8 @@ const cod = (offset, string) => {
       formula = (firstAsci - 65 + offset1) % 26 + 65;
       exit = exit.concat(String.fromCharCode(formula));
       //o puede ser con otra variable lastAsci: lastAsci = String.fromCharCode(formula); y exit += lastAsci;
-    } else {
-        
+    } else if (firstAsci === 32) {
+        exit = exit.concat(String.fromCharCode(32));
     } 
   }
   return exit
@@ -30,9 +30,8 @@ const decod = (offset, string) => {
     if(64 < firstAsci && firstAsci < 91){
       formula = (firstAsci - 65 - (offset1 % 26) + 26) % 26 + 65;
       exit = exit.concat(String.fromCharCode(formula));
-    } else {
-        
-        //formula[a] = " ";
+    } else if (firstAsci === 32) {
+        exit = exit.concat(String.fromCharCode(32));   
     } 
   }
    return exit
