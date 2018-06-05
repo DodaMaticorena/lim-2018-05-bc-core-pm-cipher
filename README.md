@@ -60,3 +60,7 @@ Para ver esta aplicación web se ingresa con un link, en el que aparecerá una v
 Para cifrar un mensaje, se escribe el texto en la primera ventana. Luego se elige un número de desplazamiento (se recomienda que sea un número alto para un mejor cifrado) y se presiona el botón "cifrar". En el cuadro posterior saldrá el texto cifrado. ¡Y ya puedes enviar el mensaje a tus amigos sin que nadie más lo sepa!
 
 Para descifrar un mensaje, en el primer cuadro se escribe el texto que te ha enviado tu amigo y abajo se pone el número de desplazamiento con el que tu amigo ha cifrado el mensaje (sí, tiene que ser el mismo número :P ). Luego, se presiona el botón "descifrar" y el texto real saldrá en el cuadro de abajo. ¡Y así sabrás lo que tu amigo quería decirte!
+
+# Link
+
+ https://dodamaticorena.github.io/lim-2018-05-bc-core-pm-cipher/src
