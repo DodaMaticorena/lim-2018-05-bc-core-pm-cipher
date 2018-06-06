@@ -22,9 +22,12 @@ body {
 }
 
 #boton {
+    background-color: rgb(73, 37, 107);
     font-size: 110%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 15%; 
+    color: rgb(255, 255, 255);
+    border: none;
     border-radius: 120%;
     cursor: pointer;
     margin-top: 3%;
@@ -36,6 +39,12 @@ body {
 
 #entryText {
     text-align: center;
+    border-color: rgb(73, 20, 7);
+    background-color: rgb(255, 255, 254);
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
 }
 
 #positions {
@@ -44,22 +53,27 @@ body {
 
 #offset {
     text-align: center;
+    border-color: rgb(102, 68, 59);
+    background-color: rgb(255, 255, 254);
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
     margin-bottom: 2%;
 }
 
-#butEncrypt {
-    text-align: center;
+.btn {
     cursor: pointer;
+    color: rgb(43, 3, 80);
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 90%;
     width: 10%;
-}
-
-#butDecrypt {
-    cursor: pointer;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-size: 90%;
-    width: 10%;
+    border-color: rgb(102, 68, 59);
+    background-color: rgb(224, 192, 131);
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
 }
 
 #message2 {
@@ -69,7 +83,13 @@ body {
 }
 
 #exitText {
-    text-align: center
+    text-align: center;
+    border-color: rgb(73, 20, 7);
+    background-color: rgb(255, 255, 254);
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
 }
 
 div {

@@ -64,3 +64,7 @@ Para descifrar un mensaje, en el primer cuadro se escribe el texto que te ha env
 # Link
 
  https://dodamaticorena.github.io/lim-2018-05-bc-core-pm-cipher/src
+
+# Estilo
+
+El estilo de la aplicación web es sobrio, minimalista y con colores suaves.
