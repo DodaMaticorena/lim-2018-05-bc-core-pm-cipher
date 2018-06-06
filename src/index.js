@@ -1,8 +1,8 @@
 //Declaramos las variables
-let string = document.getElementById('entryText');  
-let offset = document.getElementById('offset');
+const string = document.getElementById('entryText');  
+const offset = document.getElementById('offset');
 const encrypt = document.getElementById('butEncrypt');
-let text2 = document.getElementById('exitText');
+const text2 = document.getElementById('exitText');
 
 //Escuchamos al evento click para obtener el resultado del cifrado
 encrypt.addEventListener("click", ()=> {
