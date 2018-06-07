@@ -63,7 +63,7 @@ Para descifrar un mensaje, en el primer cuadro se escribe el texto que te ha env
 
 # Link
 
- <url> https://dodamaticorena.github.io/lim-2018-05-bc-core-pm-cipher/src </url>
+ [Enlace a la aplicación de cifrado](https://dodamaticorena.github.io/lim-2018-05-bc-core-pm-cipher/src)
 
 # Estilo
 
